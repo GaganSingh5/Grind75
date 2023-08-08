@@ -16,7 +16,7 @@
 var mergeTwoLists = function (list1, list2) {
   let finalList = new ListNode();
   let ans = finalList;
-  //Space Complexity O(1) as we just created only one node above, rest is just 
+  //Space Complexity O(1) as we just created only one node above, rest is just changing the pointers 
   //Time Complexity O(m+n) list1 length = m, list2 length = n
   while (list1 && list2) {
     if (list1.val <= list2.val) {
